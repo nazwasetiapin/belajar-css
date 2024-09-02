@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(151, 148, 160);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+ position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+body {margin:25px;
+align-items: center;}
+
+div.polaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+}
+
+div.container {
+
+  text-align: center;
+  padding: 10px 10px;
+}
+</style>
+
+<body style="text-align:center;">
+
+<h2>Basic Tooltip</h2>
+
+<p>Hallo guys kenalin aku Nazwa</p>
+
+<div class="tooltip">Nazwa Setiapin Al kalifi
+  <span class="tooltiptext">Awaaa</span>
+</div>
+<br><br>
+<p>Ngoding tuh seru, yang ga seru ketemu kamu sama yang lain... eh salah, maksudnya ketemu error hehe.</p>
+
+
+<h2>Responsive Polaroid Images / Cards</h2>
+
+<div class="polaroid">
+  <img src="bg.jpg" alt="5 Terre" style="width:80%">
+  <div class="container">
+  <p>Fantastic</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="bg.jpg" alt="Norther Lights" style="width:80%">
+  <div class="container">
+  <p>Fantastic</p>
+  </div>
+</div>
+</body>
+</html>
+
+

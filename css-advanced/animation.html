@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.satu {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example  {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.dua {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: examplee;
+  animation-duration: 4s;
+}
+
+@keyframes examplee {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.tiga {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: exampleee;
+  animation-duration: 4s;
+}
+
+@keyframes exampleee {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes examples {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.five {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: exampless;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+@keyframes exampless {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.six {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: exampleess;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+@keyframes exampleess {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.seven {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: exampleees;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes exampleees {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+div {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<div class="satu"></div>
+
+<p><b>Name:</b> Nazwa setiapin al kalifi</p>
+
+
+<h1>CSS Animation</h1>
+
+<div class="dua"></div>
+
+<p><b>Name:</b> Nazwa setiapin al kalifi</p>
+
+
+<h1>CSS Animation</h1>
+
+<div class="tiga"></div>
+
+<p><b>Name:</b> Nazwa setiapin al kalifi</p>
+
+
+<h1>CSS Animation</h1>
+
+<p><b>Name:</b> Nazwa setiapin al kalifi</p>
+<div class="four"></div>
+
+
+<h1>CSS Animation</h1>
+
+<p><b>Name:</b> Nazwa setiapin al kalifi</p>
+<div class="five"></div>
+
+
+<h1>CSS Animation</h1>
+
+<p><b>Name:</b> Nazwa setiapin al kalifi</p>
+<div class="six"></div>
+
+
+<h1>CSS Animation</h1>
+
+<p><b>Name:</b> Nazwa setiapin al kalifi</p>
+
+<div class="seven"></div>
+
+
+<h1>CSS Animation</h1>
+
+<p><b>Name:</b> Nazwa setiapin al kalifi</p>
+<div id="div1">linear</div>
+<div id="div2">ease</div>
+<div id="div3">ease-in</div>
+<div id="div4">ease-out</div>
+<div id="div5">ease-in-out</div>
+
+</body>
+</html>
+
+
